@@ -15,14 +15,6 @@ function Counter() {
       <br></br>
       <button onClick={() => dispatch(reset())}>Reset</button>
     </div>
-       <div className="counter">
-      <h1>{count}</h1>
-      <button onClick={() => dispatch(increment())}>Increment</button>
-      <br></br>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
-      <br></br>
-      <button onClick={() => dispatch(reset())}>Reset</button>
-    </div>
   );
 }
 
