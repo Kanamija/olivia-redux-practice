@@ -6,8 +6,3 @@ export const store = configureStore({
         counter: countReducer
     }
 });
-
-export const store = configureStore({
-    reducer: {
-        counter: countReducer
-    }
