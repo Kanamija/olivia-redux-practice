@@ -7,3 +7,7 @@ export const store = configureStore({
     }
 });
 
+export const store = configureStore({
+    reducer: {
+        counter: countReducer
+    }
