@@ -12,11 +12,3 @@ createRoot(document.getElementById("root")!).render(
     </StrictMode>
   </Provider>,
 );
-
-createRoot(document.getElementById("root")!).render(
-  <Provider store={store}>
-    <StrictMode>
-      <App />
-    </StrictMode>
-  </Provider>,
-);
